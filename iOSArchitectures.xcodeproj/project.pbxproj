@@ -9,10 +9,9 @@
 /* Begin PBXBuildFile section */
 		97076DED212FBF69003AB179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97076DEC212FBF69003AB179 /* AppDelegate.swift */; };
 		97076DEF212FBF69003AB179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97076DEE212FBF69003AB179 /* ViewController.swift */; };
-		97076DF2212FBF69003AB179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97076DF0212FBF69003AB179 /* Main.storyboard */; };
 		97076DF4212FBF6A003AB179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97076DF3212FBF6A003AB179 /* Assets.xcassets */; };
-		97076DF7212FBF6A003AB179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97076DF5212FBF6A003AB179 /* LaunchScreen.storyboard */; };
 		97076E02212FBF6A003AB179 /* iOSArchitecturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97076E01212FBF6A003AB179 /* iOSArchitecturesTests.swift */; };
+		97076E0D212FC082003AB179 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97076E0C212FC082003AB179 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +28,12 @@
 		97076DE9212FBF69003AB179 /* iOSArchitectures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSArchitectures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97076DEC212FBF69003AB179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97076DEE212FBF69003AB179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		97076DF1212FBF69003AB179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97076DF3212FBF6A003AB179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		97076DF6212FBF6A003AB179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97076DF8212FBF6A003AB179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97076DFD212FBF6A003AB179 /* iOSArchitecturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSArchitecturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97076E01212FBF6A003AB179 /* iOSArchitecturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSArchitecturesTests.swift; sourceTree = "<group>"; };
 		97076E03212FBF6A003AB179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97076E0C212FC082003AB179 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +75,8 @@
 		97076DEB212FBF69003AB179 /* iOSArchitectures */ = {
 			isa = PBXGroup;
 			children = (
-				97076DEC212FBF69003AB179 /* AppDelegate.swift */,
+				97076E0E212FC0FB003AB179 /* Application */,
 				97076DEE212FBF69003AB179 /* ViewController.swift */,
-				97076DF0212FBF69003AB179 /* Main.storyboard */,
-				97076DF3212FBF6A003AB179 /* Assets.xcassets */,
-				97076DF5212FBF6A003AB179 /* LaunchScreen.storyboard */,
-				97076DF8212FBF6A003AB179 /* Info.plist */,
 			);
 			path = iOSArchitectures;
 			sourceTree = "<group>";
@@ -94,6 +88,17 @@
 				97076E03212FBF6A003AB179 /* Info.plist */,
 			);
 			path = iOSArchitecturesTests;
+			sourceTree = "<group>";
+		};
+		97076E0E212FC0FB003AB179 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				97076DEC212FBF69003AB179 /* AppDelegate.swift */,
+				97076E0C212FC082003AB179 /* Default-568h@2x.png */,
+				97076DF3212FBF6A003AB179 /* Assets.xcassets */,
+				97076DF8212FBF6A003AB179 /* Info.plist */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,9 +181,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97076DF7212FBF6A003AB179 /* LaunchScreen.storyboard in Resources */,
 				97076DF4212FBF6A003AB179 /* Assets.xcassets in Resources */,
-				97076DF2212FBF69003AB179 /* Main.storyboard in Resources */,
+				97076E0D212FC082003AB179 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,25 +222,6 @@
 			targetProxy = 97076DFE212FBF6A003AB179 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		97076DF0212FBF69003AB179 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97076DF1212FBF69003AB179 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		97076DF5212FBF6A003AB179 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97076DF6212FBF6A003AB179 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		97076E04212FBF6A003AB179 /* Debug */ = {
@@ -359,7 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MBEDSJA2R7;
-				INFOPLIST_FILE = iOSArchitectures/Info.plist;
+				INFOPLIST_FILE = iOSArchitectures/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,7 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gravina.iOSArchitectures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -377,7 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MBEDSJA2R7;
-				INFOPLIST_FILE = iOSArchitectures/Info.plist;
+				INFOPLIST_FILE = iOSArchitectures/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,7 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gravina.iOSArchitectures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
