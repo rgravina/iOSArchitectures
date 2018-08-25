@@ -2,6 +2,7 @@ import XCTest
 @testable import iOSArchitectures
 
 class iOSArchitecturesTests: XCTestCase {
-    func testExample() {
+    func testCanCreateViewController() {
+        let _ = ArchitectureListViewController()
     }
 }

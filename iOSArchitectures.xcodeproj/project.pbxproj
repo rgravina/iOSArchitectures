@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		97076DED212FBF69003AB179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97076DEC212FBF69003AB179 /* AppDelegate.swift */; };
-		97076DEF212FBF69003AB179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97076DEE212FBF69003AB179 /* ViewController.swift */; };
+		97076DEF212FBF69003AB179 /* ArchitectureListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97076DEE212FBF69003AB179 /* ArchitectureListViewController.swift */; };
 		97076DF4212FBF6A003AB179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97076DF3212FBF6A003AB179 /* Assets.xcassets */; };
-		97076E02212FBF6A003AB179 /* iOSArchitecturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97076E01212FBF6A003AB179 /* iOSArchitecturesTests.swift */; };
+		97076E02212FBF6A003AB179 /* ArchitectureListViewController.swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97076E01212FBF6A003AB179 /* ArchitectureListViewController.swiftTests.swift */; };
 		97076E0D212FC082003AB179 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97076E0C212FC082003AB179 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -27,11 +27,11 @@
 /* Begin PBXFileReference section */
 		97076DE9212FBF69003AB179 /* iOSArchitectures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSArchitectures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97076DEC212FBF69003AB179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97076DEE212FBF69003AB179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97076DEE212FBF69003AB179 /* ArchitectureListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureListViewController.swift; sourceTree = "<group>"; };
 		97076DF3212FBF6A003AB179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97076DF8212FBF6A003AB179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97076DFD212FBF6A003AB179 /* iOSArchitecturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSArchitecturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		97076E01212FBF6A003AB179 /* iOSArchitecturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSArchitecturesTests.swift; sourceTree = "<group>"; };
+		97076E01212FBF6A003AB179 /* ArchitectureListViewController.swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureListViewController.swiftTests.swift; sourceTree = "<group>"; };
 		97076E03212FBF6A003AB179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97076E0C212FC082003AB179 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				97076E0E212FC0FB003AB179 /* Application */,
-				97076DEE212FBF69003AB179 /* ViewController.swift */,
+				97076DEE212FBF69003AB179 /* ArchitectureListViewController.swift */,
 			);
 			path = iOSArchitectures;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 		97076E00212FBF6A003AB179 /* iOSArchitecturesTests */ = {
 			isa = PBXGroup;
 			children = (
-				97076E01212FBF6A003AB179 /* iOSArchitecturesTests.swift */,
+				97076E01212FBF6A003AB179 /* ArchitectureListViewController.swiftTests.swift */,
 				97076E03212FBF6A003AB179 /* Info.plist */,
 			);
 			path = iOSArchitecturesTests;
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97076DEF212FBF69003AB179 /* ViewController.swift in Sources */,
+				97076DEF212FBF69003AB179 /* ArchitectureListViewController.swift in Sources */,
 				97076DED212FBF69003AB179 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97076E02212FBF6A003AB179 /* iOSArchitecturesTests.swift in Sources */,
+				97076E02212FBF6A003AB179 /* ArchitectureListViewController.swiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

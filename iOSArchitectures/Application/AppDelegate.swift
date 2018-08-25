@@ -10,7 +10,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow()
         if let window = window {
-            window.rootViewController = ViewController()
+            window.rootViewController = ArchitectureListViewController()
             window.makeKeyAndVisible()
         }
         return true
