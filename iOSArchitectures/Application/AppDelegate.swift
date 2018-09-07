@@ -1,4 +1,3 @@
-
 import UIKit
 
 @UIApplicationMain
@@ -16,4 +15,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 }
-
