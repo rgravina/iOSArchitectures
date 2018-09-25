@@ -3,7 +3,7 @@ tests: sort lint units
 ci: bootstrap lint tests
 
 units:
-	@/usr/bin/xcodebuild -project iOSArchitectures.xcodeproj -scheme "iOSArchitectures" -destination "platform=iOS Simulator,OS=11.4,name=iPhone X" test
+	@/usr/bin/xcodebuild -project iOSArchitectures.xcodeproj -scheme "iOSArchitectures" -destination "platform=iOS Simulator,OS=12.0,name=iPhone XR" test
 
 bootstrap:
 	@/usr/local/bin/carthage bootstrap --platform iOS,macOS --no-use-binaries --use-ssh
