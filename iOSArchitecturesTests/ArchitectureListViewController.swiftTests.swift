@@ -8,6 +8,6 @@ class iOSArchitecturesTests: XCTestCase {
 
         let cell = controller.tableView(controller.tableView, cellForRowAt: path)
 
-        XCTAssertEqual(cell.textLabel?.text, "Model View Controller")
+        XCTAssertEqual(cell.textLabel?.text, "Model View Controller (MVC)")
     }
 }
