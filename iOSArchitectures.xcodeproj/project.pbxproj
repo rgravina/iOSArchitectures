@@ -85,8 +85,8 @@
 			children = (
 				97076E0E212FC0FB003AB179 /* Application */,
 				97076DEE212FBF69003AB179 /* ArchitectureListViewController.swift */,
-				975D3162216B3197004C860C /* ModelViewControllerViewController.swift */,
 				975D3164216B3344004C860C /* ArchitecturesNavigationController.swift */,
+				975D3162216B3197004C860C /* ModelViewControllerViewController.swift */,
 				975D3166216B3825004C860C /* Theme.swift */,
 			);
 			path = iOSArchitectures;
@@ -215,10 +215,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				97076DED212FBF69003AB179 /* AppDelegate.swift in Sources */,
+				97076DEF212FBF69003AB179 /* ArchitectureListViewController.swift in Sources */,
 				975D3165216B3344004C860C /* ArchitecturesNavigationController.swift in Sources */,
 				975D3163216B3197004C860C /* ModelViewControllerViewController.swift in Sources */,
 				975D3167216B3825004C860C /* Theme.swift in Sources */,
-				97076DEF212FBF69003AB179 /* ArchitectureListViewController.swift in Sources */,
 				97B09C02213EBE8F0012D190 /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

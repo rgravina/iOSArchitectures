@@ -43,7 +43,7 @@ class ArchitectureListViewController: UIViewController, UITableViewDelegate, UIT
             return 0
         }
     }
-    
+
     func numberOfSections(in tableView: UITableView) -> Int {
         return Section.count
     }
@@ -65,21 +65,21 @@ class ArchitectureListViewController: UIViewController, UITableViewDelegate, UIT
             case 2:
                 cell.textLabel?.text = "VIPER (Clean Architecture)"
             default:
-                break;
+                break
             }
         case 1:
             switch indexPath.row {
             case 0:
                 cell.textLabel?.text = "RxSwift"
             default:
-                break;
+                break
             }
         default:
-            break;
+            break
         }
         return cell
     }
-    
+
     internal func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0:
@@ -90,14 +90,14 @@ class ArchitectureListViewController: UIViewController, UITableViewDelegate, UIT
             return ""
         }
     }
-    
+
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.section {
         case Section.OO.rawValue:
             switch indexPath.row {
             case 0:
                 navigationController?.pushViewController(ModelViewControllerViewController(), animated: true)
-                break;
+                break
             default:
                 break
             }

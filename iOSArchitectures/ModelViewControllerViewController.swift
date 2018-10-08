@@ -1,6 +1,6 @@
 import UIKit
 
-class ModelViewControllerViewController : UIViewController {
+class ModelViewControllerViewController: UIViewController {
     override func viewDidLoad() {
         title = "Model View Controller"
         navigationController?.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: self, action: nil)
