@@ -18,7 +18,7 @@ class ArchitectureListViewController: UIViewController, UITableViewDelegate, UIT
         let margins = view.layoutMarginsGuide
 
         view.backgroundColor = Theme.windowBackgroundColor
-        tableView.backgroundColor = Theme.backgroundColor
+        tableView.backgroundColor = Theme.listBackgroundColor
         tableView.separatorColor = Theme.separatorColor
         tableView.delegate = self
         tableView.dataSource = self
