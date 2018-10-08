@@ -17,9 +17,9 @@ class ArchitectureListViewController: UIViewController, UITableViewDelegate, UIT
     private func setupTableView() {
         let margins = view.layoutMarginsGuide
 
-        view.backgroundColor = UIColor.black
-        tableView.backgroundColor = UIColor.black.lighter(by: 8.0)
-        tableView.separatorColor = UIColor.lightGray
+        view.backgroundColor = Theme.windowBackgroundColor
+        tableView.backgroundColor = Theme.backgroundColor
+        tableView.separatorColor = Theme.separatorColor
         tableView.delegate = self
         tableView.dataSource = self
         tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -88,6 +88,21 @@ class ArchitectureListViewController: UIViewController, UITableViewDelegate, UIT
             return "Other Patterns"
         default:
             return ""
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch indexPath.section {
+        case Section.OO.rawValue:
+            switch indexPath.row {
+            case 0:
+                navigationController?.pushViewController(ModelViewControllerViewController(), animated: true)
+                break;
+            default:
+                break
+            }
+        default:
+            break
         }
     }
 }

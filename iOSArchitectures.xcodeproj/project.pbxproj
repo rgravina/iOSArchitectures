@@ -12,6 +12,9 @@
 		97076DF4212FBF6A003AB179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97076DF3212FBF6A003AB179 /* Assets.xcassets */; };
 		97076E02212FBF6A003AB179 /* ArchitectureListViewController.swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97076E01212FBF6A003AB179 /* ArchitectureListViewController.swiftTests.swift */; };
 		97076E0D212FC082003AB179 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97076E0C212FC082003AB179 /* Default-568h@2x.png */; };
+		975D3163216B3197004C860C /* ModelViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D3162216B3197004C860C /* ModelViewControllerViewController.swift */; };
+		975D3165216B3344004C860C /* ArchitecturesNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D3164216B3344004C860C /* ArchitecturesNavigationController.swift */; };
+		975D3167216B3825004C860C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D3166216B3825004C860C /* Theme.swift */; };
 		97B09C02213EBE8F0012D190 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B09C01213EBE8F0012D190 /* UIColorExtensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +38,9 @@
 		97076E01212FBF6A003AB179 /* ArchitectureListViewController.swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureListViewController.swiftTests.swift; sourceTree = "<group>"; };
 		97076E03212FBF6A003AB179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97076E0C212FC082003AB179 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		975D3162216B3197004C860C /* ModelViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewControllerViewController.swift; sourceTree = "<group>"; };
+		975D3164216B3344004C860C /* ArchitecturesNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitecturesNavigationController.swift; sourceTree = "<group>"; };
+		975D3166216B3825004C860C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		97B09C01213EBE8F0012D190 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +85,9 @@
 			children = (
 				97076E0E212FC0FB003AB179 /* Application */,
 				97076DEE212FBF69003AB179 /* ArchitectureListViewController.swift */,
+				975D3162216B3197004C860C /* ModelViewControllerViewController.swift */,
+				975D3164216B3344004C860C /* ArchitecturesNavigationController.swift */,
+				975D3166216B3825004C860C /* Theme.swift */,
 			);
 			path = iOSArchitectures;
 			sourceTree = "<group>";
@@ -206,6 +215,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				97076DED212FBF69003AB179 /* AppDelegate.swift in Sources */,
+				975D3165216B3344004C860C /* ArchitecturesNavigationController.swift in Sources */,
+				975D3163216B3197004C860C /* ModelViewControllerViewController.swift in Sources */,
+				975D3167216B3825004C860C /* Theme.swift in Sources */,
 				97076DEF212FBF69003AB179 /* ArchitectureListViewController.swift in Sources */,
 				97B09C02213EBE8F0012D190 /* UIColorExtensions.swift in Sources */,
 			);

@@ -9,7 +9,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow()
         if let window = window {
-            window.rootViewController = ArchitectureListViewController()
+            window.rootViewController = ArchitecturesNavigationViewController(rootViewController: ArchitectureListViewController())
             window.makeKeyAndVisible()
         }
         return true
