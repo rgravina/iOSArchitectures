@@ -5,13 +5,12 @@ class ModelViewControllerViewController: UIViewController {
     let greenButton = UIButton()
     let blueButton = UIButton()
     let label = UILabel()
-    let stackView = UIStackView()
+
     var lastTapped: ButtonColor?
 
     override func viewDidLoad() {
         setupView()
         setupSubviews()
-        setupConstraints()
     }
 
     private func setupView() {
@@ -47,6 +46,8 @@ class ModelViewControllerViewController: UIViewController {
         label.text = "Press a button"
         label.textAlignment = .center
         label.textColor = Theme.lightTextColor
+
+        let stackView = UIStackView()
         stackView.backgroundColor = Theme.listBackgroundColor
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
@@ -60,9 +61,10 @@ class ModelViewControllerViewController: UIViewController {
         stackView.addArrangedSubview(label)
 
         view.addSubview(stackView)
+        setupConstraints(stackView: stackView)
     }
 
-    private func setupConstraints() {
+    private func setupConstraints(stackView: UIStackView) {
         let margins = view.layoutMarginsGuide
 
         NSLayoutConstraint.activate([
